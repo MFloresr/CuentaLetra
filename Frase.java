@@ -34,6 +34,8 @@ public class Frase {
             }
             if ((letra>='a' && letra <='z')){
                 caracteres[letra -'a']++;
+            }if(letra>= '0' && letra<= '9'){
+                System.out.println(letra+ " es un numero");
             }
         }
         return caracteres;
