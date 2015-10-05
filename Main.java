@@ -5,6 +5,8 @@ public class Main {
         String fraseusuario =frase.PidoFrase();
         //frase.getPalabras(frase.SeparaPalabra(fraseusuario));
         frase.PrintToScrean(frase.contar(fraseusuario));
+	
+	//este comentario es una trampa jajaja
 
     }
 }
