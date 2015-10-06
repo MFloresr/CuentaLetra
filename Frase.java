@@ -25,7 +25,7 @@ public class Frase {
     }
 
     //contar letras
-    //contar letras aprovechamos clase
+    //aqui va un nuevo comentario 
     public int[] contar(String frase){
         int[] caracteres = new int[26];
         for (int i=0;i<frase.length();i++){
